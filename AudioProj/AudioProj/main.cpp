@@ -5,7 +5,7 @@
 int main() {
 
 	// Prepare window.
-	sf::RenderWindow window(sf::VideoMode({ 640, 480 }), "Audio Project");
+	sf::RenderWindow window(sf::VideoMode({ 650, 650 }), "Audio Project");
 
 	// Clock for timing the 'dt' value.
 	sf::Clock clock;
@@ -32,10 +32,11 @@ int main() {
 			}
 		}
 
+		window.clear(clear_colour);
+
 		game.handleInput(dt);
 		game.update(dt);
-
-		window.clear(clear_colour);
+		game.render(&window);
 
 		// Render you game objects here
 
