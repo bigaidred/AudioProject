@@ -1,6 +1,7 @@
 #pragma once
 #include "SFML/Graphics.hpp"
-#include "PLayer.h"
+#include "Player.h"
+#include "Obstacle.h"
 
 class Game
 {
@@ -18,5 +19,7 @@ private:
 	Player* player;
 	sf::Texture* backgroundTexture;
 	sf::Sprite* backgroundSprite;
+
+	Obstacle* obstacle;
 };
 
