@@ -20,6 +20,6 @@ private:
 	sf::Texture* backgroundTexture;
 	sf::Sprite* backgroundSprite;
 
-	Obstacle* obstacle;
+	std::vector<Obstacle*> obstacles;
 };
 
