@@ -85,6 +85,7 @@ void Game::update(float dt)
 		player->setInvincible(true);
 		score = 0;
 		scoreMult = 1;
+		scoreText->setString("Score:" + std::to_string(score));
 
 		for (int i = 0; i < obstacles.size(); i++)
 		{
