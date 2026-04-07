@@ -19,6 +19,11 @@ private:
 	Player* player;
 	sf::Texture* backgroundTexture;
 	sf::Sprite* backgroundSprite;
+	sf::Text* scoreText;
+	sf::Font font;
+	int score;
+	int scoreMult;
+	float timer;
 
 	std::vector<Obstacle*> obstacles;
 };

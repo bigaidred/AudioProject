@@ -42,7 +42,7 @@ Obstacle::~Obstacle()
 
 void Obstacle::update(float dt)
 {
-	speed = speed + (speedMultiplier * (dt * multiplierIncrement));
+	speed = speed + (speedMultiplier * dt);
 	obstacleSprite->setPosition(sf::Vector2f(obstacleSprite->getPosition().x, obstacleSprite->getPosition().y + (speed * dt)));
 
 	if (obstacleSprite->getPosition().y > 650.0f)

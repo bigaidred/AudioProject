@@ -2,6 +2,9 @@
 
 Game::Game()
 {
+	score = 0;
+	scoreMult = 1;
+
 	player = new Player();
 
 	backgroundTexture = new sf::Texture("Assets/background.png");
@@ -14,10 +17,22 @@ Game::Game()
 
 	backgroundSprite->setScale(sf::Vector2f(1.0f, 1.0f));
 
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < 3; i++)
 	{
 		obstacles.push_back(new Obstacle(i));
 	}
+
+
+	font.openFromFile("assets/impact.ttf");
+
+	scoreText = new sf::Text(font, "Score:" + std::to_string(score));
+
+	scoreText->setFillColor(sf::Color::Red);
+
+	scoreText->setPosition(sf::Vector2f(10.0f, 20.0f));
+
+	scoreText->setCharacterSize(36);
+
 
 }
 
@@ -33,6 +48,16 @@ void Game::handleInput(float dt)
 
 void Game::update(float dt)
 {
+	timer = timer + dt;
+
+	if (timer >= 1)
+	{
+		scoreText->setString("Score:" + std::to_string(score));
+		score = score + scoreMult;
+		scoreMult++;
+		timer = 0;
+	}
+	
 	sf::FloatRect playerBody = player->getBody()->getGlobalBounds();
 
 	bool coll = false;
@@ -58,6 +83,8 @@ void Game::update(float dt)
 	if (coll == true)
 	{
 		player->setInvincible(true);
+		score = 0;
+		scoreMult = 1;
 
 		for (int i = 0; i < obstacles.size(); i++)
 		{
@@ -76,4 +103,6 @@ void Game::render(sf::RenderWindow* window)
 	{
 		obstacles[i]->render(window);
 	}
+
+	window->draw(*scoreText);
 }

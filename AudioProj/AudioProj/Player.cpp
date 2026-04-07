@@ -16,6 +16,7 @@ Player::Player()
 	timer = 0;
 	health = 3;
 	invincible = false;
+
 }
 
 Player::~Player()
@@ -63,36 +64,37 @@ void Player::update(float dt)
 
 void Player::handleInput(float dt)
 {
-	input = false;
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D))
 	{
 		velocity.x = speed;
-		input = true;
 	}
 
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A))
+	else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A))
 	{
 		velocity.x = -speed;
-		input = true;
+	}
+
+	else
+	{
+		velocity.x = 0.0f;
 	}
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W))
 	{
 		velocity.y = -speed;
-		input = true;
 	}
 
-	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S))
+	else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S))
 	{
 		velocity.y = speed;
-		input = true;
 	}
 
-	if(!input)
+	else
 	{
-		velocity = sf::Vector2f(0.0f, 0.0f);
+		velocity.y = 0.0f;
 	}
+
 }
 
 void Player::render(sf::RenderWindow* window)

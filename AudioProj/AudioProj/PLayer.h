@@ -8,7 +8,6 @@ public:
 	Player();
 	~Player();
 
-
 	void update(float dt);
 	void handleInput(float dt);
 	void render(sf::RenderWindow* window);
@@ -37,13 +36,10 @@ private:
 
 	sf::Vector2f velocity;
 	float speed = 250.0f;
-	bool input = false;
 	bool invincible;
 	float timer;
 	float invincibleTime = 2.0f;
 	int health;
-	float score;
-	float scoreMult;
 
 	sf::Sprite* playerSprite;
 	sf::Texture* playerTexture;
