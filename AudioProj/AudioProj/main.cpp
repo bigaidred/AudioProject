@@ -1,9 +1,28 @@
 
 #include <SFML\Graphics.hpp>
 #include "Game.h"
+#include "fmod.hpp"
+#include <iostream>
 
 int main() {
 
+	FMOD_RESULT result;
+	FMOD::System* system = nullptr;
+
+	result = FMOD::System_Create(&system);
+
+	system->init(32, FMOD_INIT_NORMAL, nullptr);
+
+	FMOD::Sound* sound = nullptr;
+	system->createSound(R"(Assets/seasideTavern.wav)", FMOD_DEFAULT, nullptr, &sound);
+
+	FMOD::Channel* channel = nullptr;
+	result = system->playSound(sound, nullptr, false, &channel);
+
+	if (result == FMOD_OK)
+	{
+		std::cout << "ourgh" << std::endl;
+	}
 	// Prepare window.
 	sf::RenderWindow window(sf::VideoMode({ 650, 650 }), "Audio Project");
 

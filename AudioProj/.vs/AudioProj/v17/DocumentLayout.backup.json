@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|solutionrelative:AudioProj\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|solutionrelative:AudioProj\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\main.cpp",
+              "RelativeDocumentMoniker": "AudioProj\\main.cpp",
+              "ToolTip": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\main.cpp",
+              "RelativeToolTip": "AudioProj\\main.cpp",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-11T18:30:10.128Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Player.cpp",
+              "RelativeDocumentMoniker": "AudioProj\\Player.cpp",
+              "ToolTip": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Player.cpp",
+              "RelativeToolTip": "AudioProj\\Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-11T19:14:49.302Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
