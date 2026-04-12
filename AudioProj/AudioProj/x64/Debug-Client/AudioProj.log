@@ -1,10 +1,10 @@
-﻿  main.cpp
-C:\Users\aherr\Desktop\CGAD\CMP 400\AudioProject\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
-  (compiling source file 'main.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\stdexcept(100,30):
-      see declaration of 'std::runtime_error'
-      C:\Users\aherr\Desktop\CGAD\CMP 400\AudioProject\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
-      see declaration of 'sf::Exception'
-  
-  AudioProj.vcxproj -> C:\Users\aherr\Desktop\CGAD\CMP 400\AudioProject\AudioProj\x64\Debug-Client\AudioProj.exe
+﻿  SoundManager.cpp
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\SoundManager.cpp(21,22): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\SoundManager.cpp(62,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\SoundManager.cpp(70,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\SoundManager.cpp(71,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\SoundManager.cpp(77,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\SoundManager.cpp(78,23): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\SoundManager.cpp(79,23): warning C4305: 'argument': truncation from 'double' to 'float'
+  AudioProj.vcxproj -> C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\x64\Debug-Client\AudioProj.exe
   0 File(s) copied

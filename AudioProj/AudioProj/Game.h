@@ -2,6 +2,7 @@
 #include "SFML/Graphics.hpp"
 #include "Player.h"
 #include "Obstacle.h"
+#include "SoundManager.h"
 
 class Game
 {
@@ -26,5 +27,6 @@ private:
 	float timer;
 
 	std::vector<Obstacle*> obstacles;
+	SoundManager* soundManager;
 };
 

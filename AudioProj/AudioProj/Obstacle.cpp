@@ -43,6 +43,12 @@ Obstacle::~Obstacle()
 void Obstacle::update(float dt)
 {
 	speed = speed + (speedMultiplier * dt);
+
+	if (speed > 500.0f)
+	{
+		speed = 500.0f;
+	}
+
 	obstacleSprite->setPosition(sf::Vector2f(obstacleSprite->getPosition().x, obstacleSprite->getPosition().y + (speed * dt)));
 
 	if (obstacleSprite->getPosition().y > 650.0f)
@@ -52,6 +58,7 @@ void Obstacle::update(float dt)
 		obstacleSprite->setPosition(sf::Vector2f(randInt, spawnOffset));
 
 	}
+
 }
 
 void Obstacle::render(sf::RenderWindow* window)

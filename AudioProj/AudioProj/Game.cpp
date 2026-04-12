@@ -1,10 +1,12 @@
 #include "Game.h"
+#include <iostream>
 
 Game::Game()
 {
 	score = 0;
 	scoreMult = 1;
-
+	timer = 0.0f;
+	
 	player = new Player();
 
 	backgroundTexture = new sf::Texture("Assets/background.png");
@@ -22,7 +24,6 @@ Game::Game()
 		obstacles.push_back(new Obstacle(i));
 	}
 
-
 	font.openFromFile("assets/impact.ttf");
 
 	scoreText = new sf::Text(font, "Score:" + std::to_string(score));
@@ -33,7 +34,7 @@ Game::Game()
 
 	scoreText->setCharacterSize(36);
 
-
+	soundManager = new SoundManager();
 }
 
 Game::~Game()
@@ -52,10 +53,20 @@ void Game::update(float dt)
 
 	if (timer >= 1)
 	{
-		scoreText->setString("Score:" + std::to_string(score));
 		score = score + scoreMult;
 		scoreMult++;
 		timer = 0;
+		scoreText->setString("Score:" + std::to_string(score));
+	}
+
+	if (score > 200 && soundManager->GetIntensity() == 0)
+	{
+		soundManager->SetIntensity(1);
+	}
+
+	else if (score > 600 && soundManager->GetIntensity() == 1)
+	{
+		soundManager->SetIntensity(2);
 	}
 	
 	sf::FloatRect playerBody = player->getBody()->getGlobalBounds();
@@ -63,7 +74,7 @@ void Game::update(float dt)
 	bool coll = false;
 
 	player->update(dt);
-
+	soundManager->update(dt);
 
 	for (int i = 0; i < obstacles.size(); i++)
 	{
@@ -86,6 +97,7 @@ void Game::update(float dt)
 		score = 0;
 		scoreMult = 1;
 		scoreText->setString("Score:" + std::to_string(score));
+		soundManager->SetIntensity(0);
 
 		for (int i = 0; i < obstacles.size(); i++)
 		{
