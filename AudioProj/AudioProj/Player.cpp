@@ -4,6 +4,7 @@ Player::Player()
 {
 	playerTexture = new sf::Texture("Assets/player.png");
 	invincibleTexture = new sf::Texture("Assets/invincible.png");
+	powerTexture = new sf::Texture("Assets/powered.png");
 	playerSprite = new sf::Sprite(*playerTexture);
 	playerSprite->setPosition(sf::Vector2f(100.0f, 350.0f));
 
@@ -16,7 +17,7 @@ Player::Player()
 	timer = 0;
 	health = 3;
 	invincible = false;
-
+	powered = false;
 }
 
 Player::~Player()
@@ -33,6 +34,18 @@ void Player::update(float dt)
 		if (timer >= 2.0f)
 		{
 			invincible = false;
+			playerSprite->setTexture(*playerTexture);
+			timer = 0.0f;
+		}
+	}
+
+	else if (powered)
+	{
+		timer = timer + dt;
+
+		if (timer >= 5.0f)
+		{
+			powered = false;
 			playerSprite->setTexture(*playerTexture);
 			timer = 0.0f;
 		}

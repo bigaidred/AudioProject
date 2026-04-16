@@ -24,7 +24,10 @@ Game::Game()
 		obstacles.push_back(new Obstacle(i));
 	}
 
-	font.openFromFile("assets/impact.ttf");
+	if (!font.openFromFile("Assets/impact.ttf"))
+	{
+		std::cout << "hrmm" << std::endl;
+	};
 
 	scoreText = new sf::Text(font, "Score:" + std::to_string(score));
 
@@ -35,6 +38,7 @@ Game::Game()
 	scoreText->setCharacterSize(36);
 
 	soundManager = new SoundManager();
+	powerup = new PowerUp();
 }
 
 Game::~Game()
@@ -59,6 +63,7 @@ void Game::update(float dt)
 		scoreText->setString("Score:" + std::to_string(score));
 	}
 
+
 	if (score > 200 && soundManager->GetIntensity() == 0)
 	{
 		soundManager->SetIntensity(1);
@@ -75,12 +80,13 @@ void Game::update(float dt)
 
 	player->update(dt);
 	soundManager->update(dt);
+	powerup->update(dt);
 
 	for (int i = 0; i < obstacles.size(); i++)
 	{
 		obstacles[i]->update(dt);
 
-		if (player->isInvincible() == false)
+		if (player->isInvincible() == false && player->isPowered() == false)
 		{
 			sf::FloatRect obstacleBody = obstacles[i]->getBody()->getGlobalBounds();
 
@@ -104,6 +110,23 @@ void Game::update(float dt)
 			obstacles[i]->resetSpeed();
 		}
 	}
+
+	if (player->isInvincible() == false && player->isPowered() == false)
+	{
+		sf::FloatRect obstacleBody = powerup->getBody()->getGlobalBounds();
+
+		if (const std::optional intersect = playerBody.findIntersection(obstacleBody))
+		{
+			player->setPowered(true);
+			soundManager->setPower(true);
+			powerup->resetPowerup();
+		}
+	}
+
+	if (player->isPowered() == false && soundManager->getPower() == true)
+	{
+		soundManager->setPower(false);
+	}
 	
 }
 
@@ -111,6 +134,7 @@ void Game::render(sf::RenderWindow* window)
 {
 	window->draw(*backgroundSprite);
 	player->render(window);
+	powerup->render(window);
 
 	for (int i = 0; i < obstacles.size(); i++)
 	{

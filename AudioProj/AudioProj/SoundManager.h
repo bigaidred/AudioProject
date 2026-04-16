@@ -21,6 +21,18 @@ public:
 		return intensity;
 	}
 
+	void setPower(bool p)
+	{
+		power = p;
+		UpdateMusic();
+	}
+
+	bool getPower()
+	{
+		return power;
+	}
+
+
 	void UpdateMusic();
 
 private:
@@ -39,5 +51,6 @@ private:
 	FMOD::Sound* layer4 = nullptr;
 
 	int intensity;
+	bool power;
 };
 

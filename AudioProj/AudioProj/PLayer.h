@@ -32,6 +32,21 @@ public:
 		}
 	}
 
+	bool isPowered()
+	{
+		return powered;
+	}
+
+	void setPowered(bool p)
+	{
+		powered = p;
+
+		if (powered)
+		{
+			playerSprite->setTexture(*powerTexture);
+		}
+	}
+
 private:
 
 	sf::Vector2f velocity;
@@ -40,9 +55,11 @@ private:
 	float timer;
 	float invincibleTime = 2.0f;
 	int health;
+	bool powered;
 
 	sf::Sprite* playerSprite;
 	sf::Texture* playerTexture;
 	sf::Texture* invincibleTexture;
+	sf::Texture* powerTexture;
 };
 

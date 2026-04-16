@@ -68,12 +68,15 @@ void SoundManager::UpdateMusic()
 		channel4->setVolume(0);
 	};	break;
 
-	case(3):
-	{
-		channel2->setVolume(0.7);
-		channel3->setVolume(0.7);
-		channel4->setVolume(0.7);
-	};	break;
+	}
 
+	if (power == true)
+	{
+		channel4->setVolume(0.7);
+	}
+
+	else
+	{
+		channel4->setVolume(0.0);
 	}
 }

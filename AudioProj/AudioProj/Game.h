@@ -3,6 +3,7 @@
 #include "Player.h"
 #include "Obstacle.h"
 #include "SoundManager.h"
+#include "PowerUp.h"
 
 class Game
 {
@@ -28,5 +29,6 @@ private:
 
 	std::vector<Obstacle*> obstacles;
 	SoundManager* soundManager;
+	PowerUp* powerup;
 };
 
