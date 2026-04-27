@@ -29,7 +29,6 @@ private:
 	
 	float speed = 100.0f;
 	float speedMultiplier = 10.0f;
-	float multiplierIncrement = 2.0f;
 	float spawnOffset = -250.0f;
 };
 
