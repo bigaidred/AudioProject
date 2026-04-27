@@ -1,5 +1,6 @@
 #pragma once
 #include "fmod.hpp"
+#include "fmod_studio.hpp"
 
 class SoundManager
 {
@@ -8,49 +9,19 @@ public:
 	SoundManager();
 	~SoundManager();
 
-	void update(float dt);
-
-	void SetIntensity(int i)
-	{
-		intensity = i;
-		UpdateMusic();
-	}
-
-	int GetIntensity()
-	{
-		return intensity;
-	}
-
-	void setPower(bool p)
-	{
-		power = p;
-		UpdateMusic();
-	}
-
-	bool getPower()
-	{
-		return power;
-	}
-
-
-	void UpdateMusic();
+	void updateMusic(int intensity, bool powerup);
 
 private:
 
 	FMOD_RESULT result;
-	FMOD::System* system = nullptr;
 
-	FMOD::Channel* channel1 = nullptr;
-	FMOD::Channel* channel2 = nullptr;
-	FMOD::Channel* channel3 = nullptr;
-	FMOD::Channel* channel4 = nullptr;
+	FMOD::Studio::System* system;
+	FMOD::Studio::Bank* soundBank;
+	FMOD::Studio::Bank* masterSBank;
 
-	FMOD::Sound* layer1 = nullptr;
-	FMOD::Sound* layer2 = nullptr;
-	FMOD::Sound* layer3 = nullptr;
-	FMOD::Sound* layer4 = nullptr;
+	FMOD::Studio::EventDescription* desc[1];
+	FMOD::Studio::EventInstance* inst;
 
-	int intensity;
-	bool power;
+	int* num;
 };
 

@@ -55,6 +55,9 @@ void Game::update(float dt)
 {
 	timer = timer + dt;
 
+	player->update(dt);
+	powerup->update(dt);
+
 	if (timer >= 1)
 	{
 		score = score + scoreMult;
@@ -62,25 +65,10 @@ void Game::update(float dt)
 		timer = 0;
 		scoreText->setString("Score:" + std::to_string(score));
 	}
-
-
-	if (score > 200 && soundManager->GetIntensity() == 0)
-	{
-		soundManager->SetIntensity(1);
-	}
-
-	else if (score > 600 && soundManager->GetIntensity() == 1)
-	{
-		soundManager->SetIntensity(2);
-	}
 	
 	sf::FloatRect playerBody = player->getBody()->getGlobalBounds();
 
 	bool coll = false;
-
-	player->update(dt);
-	soundManager->update(dt);
-	powerup->update(dt);
 
 	for (int i = 0; i < obstacles.size(); i++)
 	{
@@ -103,7 +91,6 @@ void Game::update(float dt)
 		score = 0;
 		scoreMult = 1;
 		scoreText->setString("Score:" + std::to_string(score));
-		soundManager->SetIntensity(0);
 
 		for (int i = 0; i < obstacles.size(); i++)
 		{
@@ -118,15 +105,11 @@ void Game::update(float dt)
 		if (const std::optional intersect = playerBody.findIntersection(obstacleBody))
 		{
 			player->setPowered(true);
-			soundManager->setPower(true);
 			powerup->resetPowerup();
 		}
 	}
 
-	if (player->isPowered() == false && soundManager->getPower() == true)
-	{
-		soundManager->setPower(false);
-	}
+	soundManager->updateMusic(score, player->isPowered());
 	
 }
 
