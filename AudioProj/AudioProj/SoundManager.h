@@ -16,8 +16,8 @@ private:
 	FMOD_RESULT result;
 
 	FMOD::Studio::System* system;
-	FMOD::Studio::Bank* soundBank;
-	FMOD::Studio::Bank* masterSBank;
+	FMOD::Studio::Bank* masterBank;
+	FMOD::Studio::Bank* mStringsBank;
 
 	FMOD::Studio::EventDescription* desc[1];
 	FMOD::Studio::EventInstance* inst;

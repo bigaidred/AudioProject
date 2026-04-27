@@ -1,46 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\",
+  "WorkspaceRootPath": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\SoundManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\SoundManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|solutionrelative:AudioProj\\SoundManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\SoundManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\SoundManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|solutionrelative:AudioProj\\SoundManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|solutionrelative:AudioProj\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|solutionrelative:AudioProj\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|solutionrelative:AudioProj\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|solutionrelative:AudioProj\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Obstacle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|solutionrelative:AudioProj\\Obstacle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\PowerUp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|solutionrelative:AudioProj\\PowerUp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|solutionrelative:AudioProj\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\PowerUp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|solutionrelative:AudioProj\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\PowerUp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|solutionrelative:AudioProj\\PowerUp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\Obstacle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\PowerUp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|solutionrelative:AudioProj\\PowerUp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Obstacle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|solutionrelative:AudioProj\\Obstacle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB5B8EFB-0C34-4392-AC05-DF6F9FA40DD9}|AudioProj\\AudioProj.vcxproj|solutionrelative:AudioProj\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,15 +54,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Obstacle.h",
+              "DocumentMoniker": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Obstacle.h",
+              "RelativeDocumentMoniker": "AudioProj\\Obstacle.h",
+              "ToolTip": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Obstacle.h",
+              "RelativeToolTip": "AudioProj\\Obstacle.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-27T16:03:06.085Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Game.cpp",
-              "DocumentMoniker": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\Game.cpp",
+              "DocumentMoniker": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Game.cpp",
               "RelativeDocumentMoniker": "AudioProj\\Game.cpp",
-              "ToolTip": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\Game.cpp",
+              "ToolTip": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Game.cpp",
               "RelativeToolTip": "AudioProj\\Game.cpp",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -67,13 +84,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\main.cpp",
               "RelativeDocumentMoniker": "AudioProj\\main.cpp",
-              "ToolTip": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\main.cpp",
+              "ToolTip": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\main.cpp",
               "RelativeToolTip": "AudioProj\\main.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-11T18:30:10.128Z",
               "EditorCaption": ""
@@ -82,21 +99,21 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Obstacle.cpp",
-              "DocumentMoniker": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\Obstacle.cpp",
+              "DocumentMoniker": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Obstacle.cpp",
               "RelativeDocumentMoniker": "AudioProj\\Obstacle.cpp",
-              "ToolTip": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\Obstacle.cpp",
+              "ToolTip": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Obstacle.cpp",
               "RelativeToolTip": "AudioProj\\Obstacle.cpp",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-16T13:22:42.467Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "PowerUp.cpp",
-              "DocumentMoniker": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\PowerUp.cpp",
+              "DocumentMoniker": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\PowerUp.cpp",
               "RelativeDocumentMoniker": "AudioProj\\PowerUp.cpp",
-              "ToolTip": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\PowerUp.cpp",
+              "ToolTip": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\PowerUp.cpp",
               "RelativeToolTip": "AudioProj\\PowerUp.cpp",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -104,23 +121,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Player.h",
-              "DocumentMoniker": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\PLayer.h",
+              "DocumentMoniker": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\PLayer.h",
               "RelativeDocumentMoniker": "AudioProj\\PLayer.h",
-              "ToolTip": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\PLayer.h",
+              "ToolTip": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\PLayer.h",
               "RelativeToolTip": "AudioProj\\PLayer.h",
-              "ViewState": "AgIAABAAAAAAAAAAAAAqwC0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-04-16T13:05:37.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "PowerUp.h",
-              "DocumentMoniker": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\PowerUp.h",
+              "DocumentMoniker": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\PowerUp.h",
               "RelativeDocumentMoniker": "AudioProj\\PowerUp.h",
-              "ToolTip": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\PowerUp.h",
+              "ToolTip": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\PowerUp.h",
               "RelativeToolTip": "AudioProj\\PowerUp.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -130,11 +147,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "SoundManager.cpp",
-              "DocumentMoniker": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\SoundManager.cpp",
+              "DocumentMoniker": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\SoundManager.cpp",
               "RelativeDocumentMoniker": "AudioProj\\SoundManager.cpp",
-              "ToolTip": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\SoundManager.cpp",
+              "ToolTip": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\SoundManager.cpp",
               "RelativeToolTip": "AudioProj\\SoundManager.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-04-12T14:55:50.971Z",
               "EditorCaption": ""
@@ -143,40 +160,38 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SoundManager.h",
-              "DocumentMoniker": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\SoundManager.h",
+              "DocumentMoniker": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\SoundManager.h",
               "RelativeDocumentMoniker": "AudioProj\\SoundManager.h",
-              "ToolTip": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\SoundManager.h",
+              "ToolTip": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\SoundManager.h",
               "RelativeToolTip": "AudioProj\\SoundManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-04-12T14:55:21.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Game.h",
-              "DocumentMoniker": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\Game.h",
+              "DocumentMoniker": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Game.h",
               "RelativeDocumentMoniker": "AudioProj\\Game.h",
-              "ToolTip": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\Game.h",
+              "ToolTip": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Game.h",
               "RelativeToolTip": "AudioProj\\Game.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-12T14:49:54.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T14:49:54.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\Player.cpp",
+              "DocumentMoniker": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Player.cpp",
               "RelativeDocumentMoniker": "AudioProj\\Player.cpp",
-              "ToolTip": "C:\\Users\\2202936\\Documents\\GitHub\\AudioProject\\AudioProj\\AudioProj\\Player.cpp",
+              "ToolTip": "C:\\Users\\aherr\\Desktop\\CGAD\\CMP 400\\AudioProject\\AudioProj\\AudioProj\\Player.cpp",
               "RelativeToolTip": "AudioProj\\Player.cpp",
               "ViewState": "AgIAAEEAAAAAAAAAAAAjwCUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-11T19:14:49.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-11T19:14:49.302Z"
             }
           ]
         }

@@ -1,4 +1,4 @@
 ﻿  SoundManager.cpp
-C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\SoundManager.cpp(63,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  AudioProj.vcxproj -> C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\x64\Debug-Client\AudioProj.exe
+C:\Users\aherr\Desktop\CGAD\CMP 400\AudioProject\AudioProj\AudioProj\SoundManager.cpp(38,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  AudioProj.vcxproj -> C:\Users\aherr\Desktop\CGAD\CMP 400\AudioProject\AudioProj\x64\Debug-Client\AudioProj.exe
   0 File(s) copied
