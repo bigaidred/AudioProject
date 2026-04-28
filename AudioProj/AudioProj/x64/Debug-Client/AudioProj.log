@@ -1,4 +1,69 @@
-﻿  SoundManager.cpp
-C:\Users\aherr\Desktop\CGAD\CMP 400\AudioProject\AudioProj\AudioProj\SoundManager.cpp(38,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  AudioProj.vcxproj -> C:\Users\aherr\Desktop\CGAD\CMP 400\AudioProject\AudioProj\x64\Debug-Client\AudioProj.exe
-  0 File(s) copied
+﻿  Game.cpp
+C:\Users\2202936\Documents\GitHub\AudioProject\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Game.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Users\2202936\Documents\GitHub\AudioProject\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\Game.cpp(24,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+C:\Users\2202936\Documents\GitHub\AudioProject\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Users\2202936\Documents\GitHub\AudioProject\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  Obstacle.cpp
+C:\Users\2202936\Documents\GitHub\AudioProject\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Obstacle.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Users\2202936\Documents\GitHub\AudioProject\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\Obstacle.cpp(14,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\Obstacle.cpp(29,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\Obstacle.cpp(58,44): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\Obstacle.cpp(58,44): warning C4244:         with
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\Obstacle.cpp(58,44): warning C4244:         [
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\Obstacle.cpp(58,44): warning C4244:             T=float
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\Obstacle.cpp(58,44): warning C4244:         ]
+  Player.cpp
+C:\Users\2202936\Documents\GitHub\AudioProject\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Player.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Users\2202936\Documents\GitHub\AudioProject\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  PowerUp.cpp
+C:\Users\2202936\Documents\GitHub\AudioProject\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'PowerUp.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.39.33519\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Users\2202936\Documents\GitHub\AudioProject\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\PowerUp.cpp(19,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\PowerUp.cpp(38,43): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\PowerUp.cpp(38,43): warning C4244:         with
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\PowerUp.cpp(38,43): warning C4244:         [
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\PowerUp.cpp(38,43): warning C4244:             T=float
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\PowerUp.cpp(38,43): warning C4244:         ]
+  SoundManager.cpp
+C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\AudioProj\SoundManager.cpp(38,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  AudioProj.vcxproj -> C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\x64\Debug-Client\AudioProj.exe
+  C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\..\SFML-3.0.0\bin\sfml-audio-3.dll
+  C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\..\SFML-3.0.0\bin\sfml-audio-d-3.dll
+  C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\..\SFML-3.0.0\bin\sfml-graphics-3.dll
+  C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\..\SFML-3.0.0\bin\sfml-graphics-d-3.dll
+  C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\..\SFML-3.0.0\bin\sfml-network-3.dll
+  C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\..\SFML-3.0.0\bin\sfml-network-d-3.dll
+  C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\..\SFML-3.0.0\bin\sfml-system-3.dll
+  C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\..\SFML-3.0.0\bin\sfml-system-d-3.dll
+  C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\..\SFML-3.0.0\bin\sfml-window-3.dll
+  C:\Users\2202936\Documents\GitHub\AudioProject\AudioProj\..\SFML-3.0.0\bin\sfml-window-d-3.dll
+  10 File(s) copied
